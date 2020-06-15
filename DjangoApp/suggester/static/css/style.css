@@ -1,0 +1,72 @@
+h1{
+  font-weight:bold;
+}
+
+html, body, .height-wrapper {
+  width:100%;
+  height:100%;
+}
+
+#disclaimer-text {
+  font-size: 12px;
+}
+
+.love-message{
+  position:relative;
+  width: 100%;
+  padding:5px;
+  top: 23vh;
+}
+
+.bottom-drawer-container {
+  position: relative;
+  width: 100%;
+}
+
+.bottom-drawer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0;
+  background-color: #FFFFFF;
+  overflow: visible;
+  width: 100%;
+  transition: 0.3s ease;
+}
+
+.bottom-drawer-active {
+  height: 70vh;
+}
+
+.mask-active {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.btn-outline {
+  background-color: white;
+  border: 1px solid #26a69a; /* Green */
+}
+
+.child-div {
+  position: relative;
+  transform: translateY(60%);
+}
+
+.parent-div {
+  position: relative;
+}
+/* Debugging styling */
+.reveal-box{
+  background-color: red;
+
+}
+
+.reveal-box2{
+  background-color: blue;
+}

@@ -1,0 +1,442 @@
+[
+  {
+    "model": "suggester.suggestion",
+    "pk": 1,
+    "fields": {
+      "restaurant_name": "Kedai Roti Canai Pak Ali",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 2,
+    "fields": {
+      "restaurant_name": "Tea+",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 3,
+    "fields": {
+      "restaurant_name": "Two Sons Bistro",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 4,
+    "fields": {
+      "restaurant_name": "Nero Nero California Italian",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 5,
+    "fields": {
+      "restaurant_name": "Mean Mince",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 6,
+    "fields": {
+      "restaurant_name": "Grub Steak",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 7,
+    "fields": {
+      "restaurant_name": "China Treasures",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 8,
+    "fields": {
+      "restaurant_name": "Aka Café",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 9,
+    "fields": {
+      "restaurant_name": "SariRatu Prima",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 10,
+    "fields": {
+      "restaurant_name": "SugarBun Borneo Asian Food Mashed Potato",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 11,
+    "fields": {
+      "restaurant_name": "La Juiceria Superfood",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 12,
+    "fields": {
+      "restaurant_name": "Tigerlily Thai Restaurant",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 13,
+    "fields": {
+      "restaurant_name": "Tatotato",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 14,
+    "fields": {
+      "restaurant_name": "Fika Fika Café",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 15,
+    "fields": {
+      "restaurant_name": "Flour Indian Shop",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 16,
+    "fields": {
+      "restaurant_name": "Bean Brothers",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 17,
+    "fields": {
+      "restaurant_name": "Birch",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 18,
+    "fields": {
+      "restaurant_name": "Beardbrothers",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 19,
+    "fields": {
+      "restaurant_name": "Pulau Ketam",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 20,
+    "fields": {
+      "restaurant_name": "MyPizzaLab",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 21,
+    "fields": {
+      "restaurant_name": "Matcha Heto Kyoto",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 22,
+    "fields": {
+      "restaurant_name": "Japanese Store in Amcorp",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 23,
+    "fields": {
+      "restaurant_name": "BLVD House",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 24,
+    "fields": {
+      "restaurant_name": "MyKori Restaurant",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 25,
+    "fields": {
+      "restaurant_name": "Min Max Restaurant",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 26,
+    "fields": {
+      "restaurant_name": "A&J Burger Grill",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 27,
+    "fields": {
+      "restaurant_name": "Mac Shack",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 28,
+    "fields": {
+      "restaurant_name": "Purple Monkey Mango Cheesecake",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 29,
+    "fields": {
+      "restaurant_name": "Isetan burnt cheesecake top floor",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 30,
+    "fields": {
+      "restaurant_name": "Huckleberry",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 31,
+    "fields": {
+      "restaurant_name": "Coffee Origins",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 32,
+    "fields": {
+      "restaurant_name": "Antipodean",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 33,
+    "fields": {
+      "restaurant_name": "Kak Mah Tomyam Nasi Bubur Berlauk",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 34,
+    "fields": {
+      "restaurant_name": "Tapak Ayam Kunyit",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 35,
+    "fields": {
+      "restaurant_name": "Bumbu Desa",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 36,
+    "fields": {
+      "restaurant_name": "Kurin",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 37,
+    "fields": {
+      "restaurant_name": "Lubuk Bangku",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 38,
+    "fields": {
+      "restaurant_name": "Burger on 16",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 39,
+    "fields": {
+      "restaurant_name": "BBQ Town",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 40,
+    "fields": {
+      "restaurant_name": "Croissant",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 41,
+    "fields": {
+      "restaurant_name": "Kaiju",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 42,
+    "fields": {
+      "restaurant_name": "Fluffed Cafe and Dessert Bar",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 43,
+    "fields": {
+      "restaurant_name": "Cobalt Room Ritz Carlton",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 44,
+    "fields": {
+      "restaurant_name": "Bali and Spice",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 45,
+    "fields": {
+      "restaurant_name": "Ole Ole Bali",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 46,
+    "fields": {
+      "restaurant_name": "Kakigori",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 47,
+    "fields": {
+      "restaurant_name": "Tokyo Restaurant",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 48,
+    "fields": {
+      "restaurant_name": "Eatomo",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 49,
+    "fields": {
+      "restaurant_name": "Warung Bunian",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 50,
+    "fields": {
+      "restaurant_name": "Sixty Bites Burger",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 51,
+    "fields": {
+      "restaurant_name": "Kfry korean chicken",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 52,
+    "fields": {
+      "restaurant_name": "Sugar Rush",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 53,
+    "fields": {
+      "restaurant_name": "Toritama",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 54,
+    "fields": {
+      "restaurant_name": "Serai Thai",
+      "has_visited": "True"
+    }
+  },
+  {
+    "model": "suggester.suggestion",
+    "pk": 55,
+    "fields": {
+      "restaurant_name": "Kenny Hill Bakery",
+      "has_visited": "True"
+    }
+  }
+]

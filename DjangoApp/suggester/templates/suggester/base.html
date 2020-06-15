@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Include link to material icons to use the material-icons class -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<title>{% block title %}Default Title{% endblock %}</title>
+
+<body>
+  {% block content %}
+  {% endblock %}
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <link rel="stylesheet" href="{% static 'noUiSlider/nouislider.css' %}">
+  <!-- loading hearts screen files -->
+  <link rel="stylesheet" href="{% static 'css/hearts.css' %}">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="{% static 'js/suggester.js' %}"></script>
+  <script src="{% static 'noUiSlider/nouislider.min.js' %}"></script>
+  <script src="{% static 'js/slider.js' %}"></script>
+  <!-- loading hearts screen files -->
+  <script src="{% static 'js/hearts.js' %}"></script>
+  <script>
+    $('select').formSelect();
+    $(document).ready(function() {
+      $(".bottom-drawer-container").hide();
+      $('.modal').modal();
+
+
+      var elems = document.querySelectorAll('.modal');
+
+      var instance = M.Modal.init(elems, {
+        onCloseEnd: function() {
+          console.log("CloseEnd");
+          clearInterval(love);
+        }
+      });
+      
+    });
+  </script>
+</body>
+
+</html>

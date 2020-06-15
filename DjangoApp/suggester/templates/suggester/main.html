@@ -1,0 +1,105 @@
+{% extends 'suggester/base.html' %}
+{% block title %}Suggester{% endblock %}
+
+{% block content %}
+<!-- Put wrapper outside and assign a height wrapper to give height to the content, which then will be centered in that height -->
+<div class="valign-wrapper height-wrapper">
+  <div class="container">
+    <div class="row">
+      <h1 class="center">Hungry, Honey?</h1>
+      <div class="center-align">
+        <h5 class="grey-text text-darken-2">Click on the button below to get a suggestion on where to eat!</h5>
+      </div>
+    </div>
+    <div class="row parent-div">
+      <div class=" col s11">
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title" id="suggestion-text">Restaurant Name</span>
+            <label>
+              <input type="checkbox" checked="checked" id="checkbox-visited">
+              <span>Visited</span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="col s1 child-div" id="col1">
+        <button type="button" id="btn-filter" class="btn-large btn-outline teal-text text-lighten-1 white">
+          <b>Filter</b>
+        </button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="s12 center">
+        <button id="btn-suggest" type="button" class="btn-large">
+          <b>Suggest Me Something!</b></button>
+      </div>
+    </div>
+    <div class="love-message">
+      <hr>
+      Made by Adam
+    </div>
+  </div>
+</div>
+
+<div id="error-modal" class="modal">
+  <div class="modal-content center">
+    <i class="material-icons large red-text text-lighten-1">error</i>
+    <h5>Oops! We did not manage to find any restaurants with your selected filter</h5>
+    <p>Try changing your filters or adding more restaurants through the admin page</p>
+  </div>
+</div>
+
+<div id="page-mask"></div>
+
+<div class="bottom-drawer-container">
+  <div class="bottom-drawer z-depth-2">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h1>Filters</h1>
+          <hr>
+        </div>
+        <div class="row">
+          <div class="col s6">
+            <h5>Cuisine Type</h5>
+            <div class="input-field" id="cuisine-type">
+              <select multiple>
+                <option value="TH">Thai</option>
+                <option value="CN">Chinese</option>
+                <option value="ID">Indonesian</option>
+                <option value="JP">Japanese</option>
+                <option value="MY">Malay</option>
+                <option value="IN">Indian</option>
+                <option value="WS">Western</option>
+                <option value="DS">Dessert</option>
+                <option value="BR">Brunch</option>
+                <option value="FF">Fast Food</option>
+                <option value="KR">Korean</option>
+              </select>
+            </div>
+          </div>
+          <div class="col s6">
+            <h5>Has Visited</h5>
+            <div class="input-field" id="has-visited">
+              <select>
+                <option value="2">Any</option>
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- div class="col s6">
+            <h5>Distance</h5>
+            <div id="test-slider"></div -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}
